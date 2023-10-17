@@ -1,6 +1,5 @@
 
-
-SBP.code.path="http://40.90.224.161/proxy/"
+SBP.code.path="https://raw.githubusercontent.com/dan-alford/Simple-Biostats-Program/main/"
 
 # specify the file names
 SBP.code.files=c("get-packages.R",
@@ -13,7 +12,7 @@ SBP.code.files=c("get-packages.R",
 SBP.code.files=paste0(SBP.code.path,SBP.code.files)
 
 for (i in 1:length(SBP.code.files))
-  source(SBP.code.files[i])
+  devools::source_url(SBP.code.files[i])
 
 try(get.package("DescTools"))
 try(get.package("survival"))
