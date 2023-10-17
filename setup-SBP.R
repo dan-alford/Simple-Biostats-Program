@@ -1,5 +1,5 @@
 
-SBP.code.path="https://raw.githubusercontent.com/stan-pounds/Simple-Biostats-Program/main/"
+SBP.code.path="http://40.90.224.161/proxy/"
 
 # specify the file names
 SBP.code.files=c("get-packages.R",
